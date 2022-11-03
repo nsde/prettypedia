@@ -1,0 +1,44 @@
+@import '_vars'
+
+html.pp
+    a
+        color: $blue
+        text-decoration: none
+
+        &:hover
+            text-decoration: underline
+
+    &, body
+        margin: 0
+        padding: 0
+    
+    body
+        margin: 3rem
+
+    scroll-behavior: smooth
+
+    *
+        font-family: Georgia, 'Times New Roman', Times, serif
+        transition: 0.1s
+
+    color: $fg
+    background: $bg
+
+    section.pp-search
+
+    input
+        padding: 5px
+        font-size: large
+
+        color: $fg
+        border: none
+        background: $bg-grey
+
+        outline: none
+
+    footer
+        margin: 5rem
+        margin-left: auto
+        margin-right: auto
+        width: 50%
+        text-align: center

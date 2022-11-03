@@ -1,0 +1,5 @@
+flask
+arrow
+colorama
+wikipedia
+Wikipedia-API

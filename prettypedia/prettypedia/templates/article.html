@@ -1,0 +1,11 @@
+{% with title=title %}
+    {% include "components/top.html" %}
+{% endwith %}
+
+<h1>{{ title }}</h1>
+
+<section>
+    {{ content | safe }}
+</section>
+
+{% include "components/end.html" %}

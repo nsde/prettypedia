@@ -1,0 +1,16 @@
+{% with title="Search" %}
+    {% include "components/top.html" %}
+{% endwith %}
+
+<h1>Search results for "{{ query }}"</h1>
+
+{% for result in results%}
+<div class="pp-result">
+    <a href="/wiki/{{ result }}">
+        <h3>{{ result }}</h3> 
+    </a>
+    <!-- <p>{{ result.text }}</p> -->
+</div>
+{% endfor %}
+
+{% include "components/end.html" %}

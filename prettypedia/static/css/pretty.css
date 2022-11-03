@@ -1,0 +1,38 @@
+html.pp {
+  scroll-behavior: smooth;
+  color: #bbbbb6;
+  background: #0b0a10;
+}
+html.pp a {
+  color: #4a6cda;
+  text-decoration: none;
+}
+html.pp a:hover {
+  text-decoration: underline;
+}
+html.pp, html.pp body {
+  margin: 0;
+  padding: 0;
+}
+html.pp body {
+  margin: 3rem;
+}
+html.pp * {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: 0.1s;
+}
+html.pp input {
+  padding: 5px;
+  font-size: large;
+  color: #bbbbb6;
+  border: none;
+  background: rgba(139, 138, 141, 0.2392156863);
+  outline: none;
+}
+html.pp footer {
+  margin: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}/*# sourceMappingURL=pretty.css.map */

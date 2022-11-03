@@ -1,0 +1,20 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/__pycache__": true,
+        "**/*.css.map": true,
+        "medusrv/static/css/pretty.css": true,
+        ".vscode": true,
+        "prettypedia/static/css/pretty.css": true
+    },
+    "hide-files.files": [
+        "medusrv/static/css/pretty.css",
+        ".vscode",
+        "prettypedia/static/css/pretty.css"
+    ]
+}
